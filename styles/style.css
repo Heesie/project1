@@ -1,7 +1,7 @@
 @media only screen and (max-width: 667px) {
 
 body{
-background-color: #F3E5DA;
+background-color: #E1C699;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -30,27 +30,30 @@ ul {
     font-size: large;
     border: 1px solid black;
     border-radius: 20px;
-    background: #D1B7A0;
-    padding: 20px;
+    background: #FAF8ED;
+    padding: 15px;
     color: black;
-    margin: 5px;
+    margin: 37px;
     box-shadow: black 1px 1px 5px;
 }
 
 
-.logo{
+.mainlogo{
     display: flex;
     justify-content: center;
+    
 }
 
 
 h1{
     display: flex;
     justify-content: center;
+    text-decoration: underline;
+    
 }
 
 .boeken{
-    background-image: url(../img/boekenstapel3.png);
+    background-image: url(../img/boekenstapel6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,6 +63,7 @@ h1{
     margin: 40px;
     border: 1px solid black;
     box-shadow: black 1px 1px 5px;
+  
     
 }
 
@@ -89,7 +93,7 @@ section {
     display: flex;
     justify-content: center;
     font-size: large;
-    background: white;
+    background: #FAF8ED;
     color: black;
     box-shadow: black 2px 2px 5px;
     padding-top: 20px;
@@ -100,7 +104,9 @@ section {
 div{
     display: flex;
     padding: 10px;
+    margin: 10px;
 }
+
 p{
     padding: 10px;
     font-size: small;
@@ -110,6 +116,54 @@ p{
 .map{
     display: flex;
     justify-content: center;
+}
+
+.duurzaamtekst{
+    display: flex;
+    justify-content: center;
+    background: #FAF8ED;
+    color: black;
+    box-shadow: black 2px 2px 5px;
+    padding: 20px;
+    width: 89%;
+    text-align: justify;
+}
+
+.handen{
+    display: flex;
+    justify-content: center;
+    background: #FAF8ED;
+    box-shadow: black 2px 2px 5px;  
+    margin: 0px;  
+}
+
+.tekstboven{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.tekstonder{
+    text-align: justify;
+    margin-right: 10px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hiermap{
+   display: flex;
+   justify-content:baseline;
+    
 }
 
 }
