@@ -50,7 +50,7 @@ h1{
 }
 
 .boeken{
-    background-image: url(/Website/img/boekenstapel3.png);
+    background-image: url(../img/boekenstapel3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
