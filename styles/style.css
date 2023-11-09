@@ -162,11 +162,6 @@ a{
     color: black;
 }
 
-.hiermap{
-   display: flex;
-   justify-content:baseline;
-    
-}
 
 .tabel{
     display: flex;
@@ -178,7 +173,7 @@ a{
     margin-left: -20px;
     margin-right: 20px;
     align-items: center;
-
 }
+
 
 }
